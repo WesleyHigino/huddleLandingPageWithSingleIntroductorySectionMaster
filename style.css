@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    background-color:hsl(257, 40%, 49%) ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+
+.header{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 373px;
+    background-image: url(./images/bg-mobile.svg);
+}
+.high{
+    margin:0 37px;
+    
+}
+.logo{
+    width: 130px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: -5px;
+  
+}
+.image{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 47px;
+    margin-bottom: 1px;
+    
+}
+.low{
+    margin: 40px;
+}
+.title{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    
+}
+.text{
+    text-align: center;
+    color: white;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.button button{
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color:hsl(257, 40%, 49%) ;
+
+}
+button:hover{
+    background-color: hsl(300, 69%, 71%);
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.226);
+    pointer-events:visibleFill ;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.imageFace{
+    margin-right: 10px;
+}
+.imageTwi{
+    color: white;
+}
+.imageInsta{
+    margin-left: 10px;
+}
+@media screen and (min-width:455px) {
+
+       .title{
+           margin-top: 100px;
+       }
+       .header{
+        height: 435px;
+        background-image: url(./images/bg-desktop.svg);
+        
+    }
+    
+}
+@media screen and (min-width:515px) {
+
+    .title{
+        margin-top: 140px;
+    }
+ 
+}
+@media screen and (min-width:580px) {
+
+    .title{
+        margin-top: 180px;
+    }
+ 
+}
+@media screen and (min-width:650px) {
+
+    .title{
+        margin-top: 220px;
+    }
+ 
+}
+@media screen and (min-width:787px) {
+
+    .title{
+        margin-top: 270px;
+    }
+ 
+}
+@media screen and (min-width:870px) {
+
+    body{
+        background-image: url(./images/bg-desktop.svg);
+        background-size: 130%;
+        
+        
+    }
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    .logo{
+        width: 200px;
+        margin-top: 0px;
+       
+
+    }
+    .wrapperMain{
+        display: flex;
+        padding-top: 120px;
+        
+       
+        
+    }
+    .wrapperLow{
+        padding-top:-50px;
+    }
+    .low{
+        margin-top: -130px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+   
+    .header{
+        background-image: none;
+    }
+    .image{
+        width: 610px;
+        height: 460px;
+    }
+    .title{
+        text-align: start;
+        width:370px ;
+        font-size:22px;
+    }
+    .text{
+        text-align: start;
+        width: 470px;
+        
+    }
+    .button{
+        display: flex;
+        justify-content: flex-start;
+    
+    }
+    footer{
+        margin-top: 195px;
+        justify-content: flex-end;
+        
+    }
+    .imageFace{
+        width:6%;
+    }
+    .imageTwi{
+        width:6%;
+    }
+    .imageInsta{
+        width:6%;
+    }
+   
+  
+    
+}
