@@ -1,5 +1,5 @@
 # huddle Landing Page With Single Introductory Section Master
-
+https://huddlelandingpage01.netlify.app/
 
 ## Sobre o projeto
 
@@ -55,10 +55,12 @@ Esta é uma solução do frontend Mentor com o objetivo de construir uma Página
 ## Implantação em produção
 
 - Front end web: Netlify
+  https://huddlelandingpage01.netlify.app/
   
 # Challenge
 
 - Frontend Mentor
+  https://www.frontendmentor.io/solutions/flex-box-grid-layout-sU8toXSud
   
 # Meu aprendizado neste projeto
   
