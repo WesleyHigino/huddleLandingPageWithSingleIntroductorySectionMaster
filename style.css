@@ -12,7 +12,7 @@ body{
 }
 
 
-.header{
+.sectionHeader{
     margin: 0;
     padding: 0;
     width: 100%;
@@ -91,7 +91,7 @@ footer{
        .title{
            margin-top: 100px;
        }
-       .header{
+       .sectionHeader{
         height: 435px;
         background-image: url(./images/bg-desktop.svg);
         
@@ -164,7 +164,7 @@ footer{
         
     }
    
-    .header{
+    .sectionHeader{
         background-image: none;
     }
     .image{
